@@ -1,0 +1,37 @@
+body{background-color: lightblue;}
+.login-div{
+    padding: 15px;
+border: solid 10px #c0c0c0;
+box-shadow: 0 0 5px #777777;
+display: inline-block;
+}
+.login-div input{
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px #777777;
+}
+
+h1{padding-left: 80px;}
+
+.login-div input[type="email"]{border: solid 2px red;}
+.login-div input[type="password"]{border: solid 2px green;}
+
+input[class*="blue"]
+{
+    border: 10px orange;
+}
+.login-div button:hover{box-shadow: 0 0 3px;}
+
+.login-div input:focus{box-shadow: 0 0 3px;
+border: none
+}
+
+ul li:last-child{
+text-decoration: underline;
+}
+ul li:first-child{
+color: red;
+}
+ul li:nth-child(2){
+color: orange;
+}
